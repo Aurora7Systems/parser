@@ -108,7 +108,7 @@ const Parser = {
     } else if (contentType === 'text') {
       result.content = $.text($(result.content));
     }
-
+    result.contentTextOnly = $.text($(result.content));
     return { ...result, ...extendedTypes };
   },
 

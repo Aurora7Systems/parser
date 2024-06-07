@@ -3,7 +3,7 @@ version: 2
 defaults: &defaults
   working_directory: ~/project
   docker:
-    - image: circleci/node:14.14.1-browsers
+    - image: circleci/node:14.17-browsers
 
 jobs:
   test-node:
